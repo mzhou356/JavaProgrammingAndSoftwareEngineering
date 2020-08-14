@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Div, Canvas, And Buttons</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script type="text/javascript" src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<div id="id1" class="blueback">
+  <h1><b><em>Hello Everyone!</em></b></h1>
+</div>
+<div id="id2" class="redback">
+  <h2 id="header2"><b>Section 1</b></h2>
+  <ul>
+    <li id="list1"> Buttons with Divs </li>
+    <ul>
+      <li> <input type = "button" id="b1" value = "click me!" onclick="confirmchange()">
+      </li>
+      <li><input id="b2" type = "button" value = "change color!" onclick="colorChange()">
+      </li>
+      <li><input id="b3" type ="button" value = "text change!" onclick="textChange()">
+      </li>
+     </ul>
+  </ul>
+</div>
+
+<center>
+<canvas id="c1" class="blueback">
+</canvas>
+
+ <canvas id="c2" class="redback">
+</canvas>
+<p>
+  <input id="b4" type="button" value="make Grey" onclick="doGrey()">
+  <input id="b5" type="button" value="make GreenYellow" onclick="doGreenYellow()">
+  </p>
+  </center>
+<div>
+<canvas id="c3">
+</canvas>
+  <canvas id="c4">
+  </canvas>
+  <canvas id="c5">
+  </canvas>
+  <p>
+    <input id="clr" type="color" value="#6699ff" onclick="docolor()">
+    <input id="clr2" type="color" value="#00ffff" onchange="docolor2()">
+    <input id="slr" type="range" min="16" max="96" value="16" oninput="dosquare()">
+  </p>
+</div>
+<div>
+  <canvas id="c6">
+  </canvas>
+<!--   <input type="text" id="tinput">
+  <input type="button" value="upload" onclick="upload()"> -->
+  <input type="file" multiple=false accept="image/*" id="finput" onchange="upload2()">
+  <canvas id="c7">
+  </canvas>
+  <input type="button" value="Make Grayscale" onclick="makeGrayScale()">
+</div>
+<div>
+  <canvas id="c8" class="greenscreen">
+  </canvas>
+  <canvas id="c9" class="greenscreen">
+  </canvas>
+  <p>
+ Foreground: <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()">
+   </p>
+   <p>
+ Background: <input type="file" multiple="false" accept="image/" id="bgfile" onchange="loadbackgroundImage()">>
+    <p>
+   <p>
+    <input type="button" value="make composite" onclick="makeComposite()">
+    <input type="button" value="clear canvas" onclick="clearCanvas()">
+  </p>
+</div>
+<br>
+<br>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
