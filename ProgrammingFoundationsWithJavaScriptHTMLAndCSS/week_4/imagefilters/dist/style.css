@@ -1,0 +1,37 @@
+body {
+  background-color:Azure;
+}
+
+#header{
+  background-color:AliceBlue;
+  text-align:center;
+  font-size:24pt;
+  font-style:bold;
+  font-family:Georgia;
+  top-padding: 5px;
+  bottom-padding:10px;
+  border: 6px dashed SteelBlue;
+  top-margin: 5px;
+  bottom-margin:5px;
+  color: MidnightBlue;
+}
+
+.content{
+  text-align:center;
+  color: DarkBlue;
+  font-style:bold;
+  font-family:Verdana;
+  padding:5px;
+  background-color:WhiteSmoke;
+  border-top-style: dotted;
+  border-bottom-style: solid;
+  border-width: 1.5px;
+  border-color:SteelBlue;
+  font-size:24;
+  top-margin: 5px;
+}
+
+#c1{
+  height:360px;
+  border:5px solid LightSteelBlue;
+}
