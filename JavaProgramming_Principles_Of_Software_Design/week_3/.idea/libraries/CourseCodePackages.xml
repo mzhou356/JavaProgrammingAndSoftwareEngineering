@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="CourseCodePackages">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../JavaProgramming_SolvingProblemswithSoftware/CourseCodePackages" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../JavaProgramming_SolvingProblemswithSoftware/CourseCodePackages" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../JavaProgramming_SolvingProblemswithSoftware/CourseCodePackages" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../JavaProgramming_SolvingProblemswithSoftware/CourseCodePackages" recursive="false" type="SOURCES" />
+  </library>
+</component>
