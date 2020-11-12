@@ -1,13 +1,14 @@
 
-
 import java.util.*;
 
-public class MarkovOne {
+public class MarkovModel {
     private String myText;
     private Random myRandom;
+    private int N;
 
-    public MarkovOne() {
+    public MarkovModel(int n) {
         myRandom = new Random();
+        N = n;
     }
 
     public void setRandom(int seed){
@@ -23,10 +24,13 @@ public class MarkovOne {
         int pos = 0;
         while (pos < myText.length()){
             int ind = myText.indexOf(key,pos);
-            if (ind == -1){
-                break;
-            }
-            if ((ind+key.length()) > myText.length()-1){
+//            if (ind == -1){
+//                break;
+//            }
+//            if ((ind+key.length()) > myText.length()-1){
+//                break;
+//            }
+            if (ind == -1 || (ind + key.length() > myText.length() - 1)) {
                 break;
             }
             String word = myText.substring(ind+key.length(), ind+key.length()+1);
@@ -41,11 +45,14 @@ public class MarkovOne {
             return "";
         }
         StringBuilder sb = new StringBuilder();
-        int index = myRandom.nextInt(myText.length()-1);
-        String key = myText.substring(index,index+1);
-        sb.append(myText.charAt(index));
-        for(int k=0; k < numChars; k++){
+        int index = myRandom.nextInt(myText.length()-N);
+        String key = myText.substring(index,index+N);
+        sb.append(key);
+        for(int k=0; k < numChars-N; k++){
             ArrayList<String> follows = getFollows(key);
+            if (follows.size() == 0){
+                break;
+            }
             index = myRandom.nextInt(follows.size());
             String next = follows.get(index);
             sb.append(next);
@@ -54,4 +61,3 @@ public class MarkovOne {
         return sb.toString();
     }
 }
-

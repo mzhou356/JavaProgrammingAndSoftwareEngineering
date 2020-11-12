@@ -1,12 +1,10 @@
-
-
 import java.util.*;
 
-public class MarkovOne {
+public class MarkovFour {
     private String myText;
     private Random myRandom;
 
-    public MarkovOne() {
+    public MarkovFour() {
         myRandom = new Random();
     }
 
@@ -41,10 +39,10 @@ public class MarkovOne {
             return "";
         }
         StringBuilder sb = new StringBuilder();
-        int index = myRandom.nextInt(myText.length()-1);
-        String key = myText.substring(index,index+1);
-        sb.append(myText.charAt(index));
-        for(int k=0; k < numChars; k++){
+        int index = myRandom.nextInt(myText.length()-4);
+        String key = myText.substring(index,index+4);
+        sb.append(key);
+        for(int k=0; k < numChars-4; k++){
             ArrayList<String> follows = getFollows(key);
             index = myRandom.nextInt(follows.size());
             String next = follows.get(index);
@@ -54,4 +52,3 @@ public class MarkovOne {
         return sb.toString();
     }
 }
-
