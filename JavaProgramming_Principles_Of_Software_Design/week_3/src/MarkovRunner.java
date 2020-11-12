@@ -22,6 +22,15 @@ public class MarkovRunner {
         }
     }
 
+    public void runModel(IMarkovModel markov, String text, int size){
+        markov.setTraining(text);
+        System.out.println("running with "+markov);
+        for (int k=0; k<3; k++){
+            String st = markov.getRandomText(size);
+            printOut(st);
+        }
+    }
+
     public void runMarkov(){
 //        FileResource fr = new FileResource();
 //        String st = fr.asString();
@@ -38,10 +47,11 @@ public class MarkovRunner {
         markov.setRandom(25);
         */
         MarkovModel markov = new MarkovModel(6);
-        markov.setTraining(st);
+//        markov.setTraining(st);
         markov.setRandom(38);
-        String text = markov.getRandomText(500);
-        printOut(text);
+        runModel(markov, st, 500);
+//        String text = markov.getRandomText(500);
+//        printOut(text);
     }
 
     private void printOut(String s){
