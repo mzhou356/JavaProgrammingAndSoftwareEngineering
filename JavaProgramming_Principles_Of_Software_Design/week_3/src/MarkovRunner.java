@@ -34,8 +34,25 @@ public class MarkovRunner {
     public void runMarkov(){
 //        FileResource fr = new FileResource();
 //        String st = fr.asString();
+
+
         String st = new FileResource().asString();
         st = st.replace('\n', ' ');
+//        MarkovWordOne mw1 = new MarkovWordOne();
+//        System.out.println("Runing with "+mw1);
+//        mw1.setTraining(st);
+//        mw1.setRandom(139);
+//        String text = mw1.getRandomText(120);
+//        printOut(text);
+
+
+        MarkovWordTwo mw1 = new MarkovWordTwo();
+        System.out.println("Runing with "+mw1);
+        mw1.setTraining(st);
+        mw1.setRandom(832);
+        String text = mw1.getRandomText(120);
+        printOut(text);
+
         /*
         MarkovOne markov = new MarkovOne();
         markov.setTraining(st);
@@ -46,10 +63,10 @@ public class MarkovRunner {
         markov.setTraining(st);
         markov.setRandom(25);
         */
-        MarkovModel markov = new MarkovModel(6);
-//        markov.setTraining(st);
-        markov.setRandom(38);
-        runModel(markov, st, 500);
+//        MarkovModel markov = new MarkovModel(6);
+////        markov.setTraining(st);
+//        markov.setRandom(38);
+//        runModel(markov, st, 500);
 //        String text = markov.getRandomText(500);
 //        printOut(text);
     }
