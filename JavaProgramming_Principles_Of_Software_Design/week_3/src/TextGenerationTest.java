@@ -1,12 +1,16 @@
 import java.util.ArrayList;
 public class TextGenerationTest {
     public static void main(String[] args){
-        WordGramTester test1 = new WordGramTester();
-        test1.testWordGramShift();
+//        WordGramTester test1 = new WordGramTester();
+//        test1.testWordGramShift();
 //        test1.testWordGram();
 //        test1.testWordGramEquals();
-//        MarkovRunner testOne = new MarkovRunner();
+        MarkovRunner testOne = new MarkovRunner();
 //        testOne.runMarkov();
+//        testOne.runMarkovZero();
+//        testOne.runMarkovWord();
+        testOne.testHashMap();
+//        testOne.compareMethods();
 //        MarkovRunnerWithInterface test2 = new MarkovRunnerWithInterface();
 //        test2.compareMethods();
 //        test2.runMarkov();

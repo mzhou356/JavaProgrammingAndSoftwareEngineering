@@ -12,7 +12,7 @@ public class Tester {
         String txt = new FileResource().asString();
         txt.replace("\n"," ");
         test.setTraining(txt);
-        ArrayList<String> arr = test.getFollows("t");
+        ArrayList<String> arr = test.getFollows("he");
         System.out.println(arr.size());
     }
 
