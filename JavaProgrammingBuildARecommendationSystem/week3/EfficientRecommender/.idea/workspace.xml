@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48ab67c7-9b28-4c85-905c-07074e39ec22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/MovieRunnerAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/SecondRatings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/RecommenderStarter/out/production/RecommenderStarter/data/ratings_short.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/RecommenderStarter/out/production/RecommenderStarter/data/ratings_short.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/FirstRatingsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/FirstRatingsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/data/ratings_short.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/RecommenderStarter/src/data/ratings_short.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1m9rePgoNPfl0OJ1vwssPKuBvAw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.7479862" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48ab67c7-9b28-4c85-905c-07074e39ec22" name="Default Changelist" comment="" />
+      <created>1608916742768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608916742768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="264" key="#Project_Structure" timestamp="1608916765033">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="264" key="#Project_Structure/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608916765033" />
+    <state x="768" y="264" key="SettingsEditor" timestamp="1608916813639">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="264" key="SettingsEditor/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608916813639" />
+  </component>
+</project>
