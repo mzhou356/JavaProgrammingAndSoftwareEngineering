@@ -20,16 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ab67c7-9b28-4c85-905c-07074e39ec22" name="Default Changelist" comment="week2 for average ratings calculation">
-      <change afterPath="$PROJECT_DIR$/src/DirectorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EfficientRater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenreFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinutesFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovieRunnerWithFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RaterDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recommender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdRatings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/DirectorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/EfficientRater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/GenreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/MinutesFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/MovieRunnerWithFilters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/Rater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/RaterDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/Recommender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/src/ThirdRatings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourthRatings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovieRunnerSimilarRatings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecommendationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RepeatFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3/EfficientRecommender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/EfficientRecommender/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +80,7 @@
   <component name="RunManager">
     <configuration name="FirstRatingsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstRatingsMain" />
-      <module name="EfficientRecommender" />
+      <module name="Recommender" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,33 +133,70 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="768" y="264" key="#Project_Structure/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608916765033" />
-    <state x="1097" y="426" key="#com.intellij.ide.util.MemberChooser" timestamp="1608920014831">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="-1463" y="426" key="#com.intellij.ide.util.MemberChooser" timestamp="1609772244426">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
+    <state x="-1463" y="426" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609772244426" />
     <state x="1097" y="426" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608920014831" />
     <state x="965" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608917261875">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="965" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608917261875" />
-    <state width="2509" height="371" key="GridCell.Tab.0.bottom" timestamp="1609259354362">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2509" height="456" key="GridCell.Tab.0.bottom" timestamp="1609791914828">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
+    <state width="2509" height="456" key="GridCell.Tab.0.bottom/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914828" />
     <state width="2509" height="371" key="GridCell.Tab.0.bottom/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1609259354362" />
-    <state width="2509" height="371" key="GridCell.Tab.0.center" timestamp="1609259354360">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2509" height="456" key="GridCell.Tab.0.center" timestamp="1609791914826">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
+    <state width="2509" height="456" key="GridCell.Tab.0.center/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914826" />
     <state width="2509" height="371" key="GridCell.Tab.0.center/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1609259354360" />
-    <state width="2509" height="371" key="GridCell.Tab.0.left" timestamp="1609259354359">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2509" height="456" key="GridCell.Tab.0.left" timestamp="1609791914825">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
+    <state width="2509" height="456" key="GridCell.Tab.0.left/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914825" />
     <state width="2509" height="371" key="GridCell.Tab.0.left/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1609259354359" />
-    <state width="2509" height="371" key="GridCell.Tab.0.right" timestamp="1609259354361">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="2509" height="456" key="GridCell.Tab.0.right" timestamp="1609791914827">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
+    <state width="2509" height="456" key="GridCell.Tab.0.right/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914827" />
     <state width="2509" height="371" key="GridCell.Tab.0.right/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1609259354361" />
+    <state width="2509" height="456" key="GridCell.Tab.1.bottom" timestamp="1609791914830">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2509" height="456" key="GridCell.Tab.1.bottom/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914830" />
+    <state width="2509" height="456" key="GridCell.Tab.1.center" timestamp="1609791914829">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2509" height="456" key="GridCell.Tab.1.center/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914829" />
+    <state width="2509" height="456" key="GridCell.Tab.1.left" timestamp="1609791914828">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2509" height="456" key="GridCell.Tab.1.left/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914828" />
+    <state width="2509" height="456" key="GridCell.Tab.1.right" timestamp="1609791914830">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2509" height="456" key="GridCell.Tab.1.right/0.23.2560.1320/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1609791914830" />
     <state x="768" y="264" key="SettingsEditor" timestamp="1608916813639">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="768" y="264" key="SettingsEditor/0.23.2560.1417/-2560.23.2560.1320@0.23.2560.1417" timestamp="1608916813639" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FirstRatingsMain.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RecommendationRunner.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
